@@ -1,4 +1,4 @@
-![Ember Logo](https://github.com/vercel/vercel/blob/main/packages/frameworks/logos/ember.svg)
+![Demo Postet](public/img/preview.jpg)
 
 # Poster Maker
 
