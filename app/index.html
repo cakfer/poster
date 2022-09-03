@@ -12,6 +12,85 @@
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/hello-world.css">
 
+    <style type="text/css">
+    button, label, canvas, div {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: monospace;
+      font-size: 14px;
+    }
+
+    #input-file {
+      position: absolute;
+      left: -10000px;
+    }
+
+    #preview {
+      border: 1px solid #eee;
+      margin: 10px 0;
+      background: #eee;
+      width: 100%;
+    }
+
+    .frame-option {
+      padding: 10px;
+      line-height: 0;
+      width: 25%;
+      background: transparent;
+      border: 0;
+    }
+
+    .frame-option:focus {
+      border: 1px solid #669ada;
+      outline: none;
+      position: relative;
+      padding: 9px;
+      border-radius: 10px;
+    }
+
+    .frame-option img {
+      border-radius: 5px;
+      background-image: url(img/placeholder.png);
+      background-size: 100% 100%;
+      pointer-events: none;
+    }
+
+    .frame-option:not(:first-child) {
+      margin-left: -1px;
+    }
+
+    .wrapper {
+      width: 100%;
+      padding: 10px;
+      max-width: 360px;
+      min-width: 240px;
+      margin: 0 auto;
+    }
+
+    .action {
+      font-size: 13px;
+      text-decoration: none;
+      cursor: pointer;
+      color: #669ada;
+      padding: 10px 20px;
+      border-radius: 50px;
+      border: 1px solid;
+      display: block;
+      text-align: center;
+    }
+
+    .action[href=''] {
+      display: none;
+    }
+
+    .buttons {
+      flex-wrap: wrap;
+      display: flex;
+      margin-bottom: 10px;
+    }
+  </style>
     {{content-for "head-footer"}}
   </head>
   <body>
