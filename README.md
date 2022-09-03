@@ -1,4 +1,4 @@
-![Demo Postet](public/img/preview.jpg)
+![Demo Postet](public/img/avatar-framedd.png)
 
 # Poster Maker
 
